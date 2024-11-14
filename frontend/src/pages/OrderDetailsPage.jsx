@@ -52,7 +52,7 @@ const OrderDetailsPage = () => {
         key: razorpayApiKey.razorpayKeyId, // Enter the Key ID generated from the Dashboard
         amount: razorpayData.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: razorpayData.currency,
-        name: 'MERN Shop', //your business name
+        name: 'Nature', //your business name
         description: 'Test Transaction',
         image: 'https://example.com/your_logo',
         order_id: razorpayOrderId, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
